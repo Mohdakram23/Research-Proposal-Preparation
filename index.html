@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Proposal Preparation | Free Certificate Course</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">RP Prep Academy</div>
+      <a href="#enroll" class="btn btn-small">Enroll Free</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="badge">100% Free • Academic Career Focused</p>
+      <h1>Research Proposal Preparation</h1>
+      <p class="subtitle">
+        A complete, beginner-friendly course to help students and researchers write a strong proposal,
+        choose a topic, define methodology, and submit with confidence.
+      </p>
+      <div class="hero-actions">
+        <a href="#modules" class="btn">View Modules</a>
+        <a href="#certificate" class="btn btn-secondary">How Certificate Works</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="highlights">
+      <h2>Why this course?</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>Free Like You Asked</h3>
+          <p>No subscription, no payment wall, and no hidden fees.</p>
+        </article>
+        <article class="card">
+          <h3>Academic Ready</h3>
+          <p>Designed for undergraduate, postgraduate, and early-stage researchers.</p>
+        </article>
+        <article class="card">
+          <h3>Completion Certificate</h3>
+          <p>Get your free certificate after passing the final quiz and submission checklist.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="modules">
+      <h2>Course Modules</h2>
+      <ol class="modules">
+        <li>
+          <h3>1. Understanding Research Problems</h3>
+          <p>Identify a meaningful problem, scope your topic, and define objectives.</p>
+        </li>
+        <li>
+          <h3>2. Literature Review Strategy</h3>
+          <p>Search smartly, read critically, and build a conceptual foundation.</p>
+        </li>
+        <li>
+          <h3>3. Proposal Structure & Writing Style</h3>
+          <p>Craft title, abstract, introduction, rationale, significance, and references.</p>
+        </li>
+        <li>
+          <h3>4. Methodology Design</h3>
+          <p>Choose research design, sampling, data collection methods, and analysis plan.</p>
+        </li>
+        <li>
+          <h3>5. Timeline, Budget & Ethics</h3>
+          <p>Prepare Gantt chart, basic budget plan, and ethics/compliance section.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section split" id="certificate">
+      <div>
+        <h2>Free Completion Certificate</h2>
+        <p>
+          Complete all modules, score at least 70% in the final assessment, and submit your proposal draft.
+          Your name appears on a downloadable certificate instantly.
+        </p>
+        <ul class="checklist">
+          <li>Watch all module videos/resources</li>
+          <li>Pass the final MCQ quiz (70%+)</li>
+          <li>Upload a proposal outline template</li>
+          <li>Download certificate PDF</li>
+        </ul>
+      </div>
+
+      <form id="enroll" class="card form-card">
+        <h3>Enroll in Free Course</h3>
+        <label>
+          Full Name
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Current Level
+          <select id="level" name="level" required>
+            <option value="">Select level</option>
+            <option>Undergraduate</option>
+            <option>Postgraduate</option>
+            <option>PhD Scholar</option>
+            <option>Independent Researcher</option>
+          </select>
+        </label>
+        <button type="submit" class="btn">Join Free</button>
+        <p id="enroll-message" class="message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> RP Prep Academy • Built for free academic learning.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
